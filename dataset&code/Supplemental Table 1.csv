@@ -1,0 +1,61 @@
+Name,ID
+Type III antifreeze protein signature,1
+AFP III-like domain,1
+Antifreeze_III,1
+Insect antifreeze protein repeat,2
+Insect cysteine-rich antifreeze protein,2
+Insect antifreeze protein,2
+Type II antifreeze protein signature,3
+Antifreeze protein-like domain profile,4
+Antifreeze protein-like domain profile.,4
+Type I antifreeze protein signature,5
+SignalP-noTM,6
+SignalP-TM,6
+C-terminal region of a signal peptide,7
+C-terminal region of a signal peptide.,7
+N-terminal region of a signal peptide.,7
+.N-terminal region of a signal peptide,7
+Signal peptide region,7
+Hydrophobic region of a signal peptide,8
+Hydrophobic region of a signal peptide.,8
+"Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region",9
+"Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.",9
+"Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.",9
+Region of a membrane-bound protein predicted to be embedded in the membrane,10
+Region of a membrane-bound protein predicted to be embedded in the membrane.,10
+SAF domain,11
+SAF_3,11
+SAFNeuBlike,11
+SAF_NeuB_like,11
+NeuB family,12
+N-ACETYLNEURAMINATE SYNTHASE,12
+Aldolase,13
+Aldolase class I,13
+sialic acid synthase,14
+CLECT,15
+Lectin C-type domain,15
+C-type lectin-like,15
+C-type lectin domain profile,15
+C-type lectin-like/link domain superfamily,15
+C-type lectin domain signature,15
+C-TYPE LECTIN SUPERFAMILY MEMBER,15
+C-type lectin domain signature.,15
+C-type lectin domain profile.,15
+CLECT_2,16
+Ice-binding-like,17
+R3H domain,18
+R3H domain superfamily,18
+"Copper resistance protein CopC/internalin, immunoglobulin-like",19
+consensus disorder prediction,20
+"MANNOSE, PHOSPHOLIPASE, LECTIN RECEPTOR RELATED",21
+Coil,22
+AAA domain,23
+AAA_5,23
+Apolipoprotein A-I,24
+Apolipoprotein,24
+Apolipoprotein A-II (ApoA-II),24
+Immunoglobulin mu DNA-binding protein 2,25
+AN1-like Zinc finger,26
+Zinc finger AN1-type profile,26
+AN1_Zf_4,26
+Antifreeze protein associated pathways,27
