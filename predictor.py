@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
 
 
 import torch
@@ -9,7 +8,6 @@ from protein_bert_pytorch import ProteinBERT, PretrainingWrapper
 import pandas as pd
 import ast
 from torch.utils.data import random_split, DataLoader, TensorDataset 
-from torch.utils.tensorboard import SummaryWriter
 import os,shutil
 import pandas as pd  
 import numpy as np  
@@ -17,7 +15,7 @@ import torch
 from Bio import SeqIO
 import argparse 
 
-# In[4]:
+
 
 
 model = ProteinBERT(
@@ -129,9 +127,9 @@ def test_model(model, test_loader):
             right.append("NON AFP")
     return right
 
-parser = argparse.ArgumentParser(description='处理FASTA文件')
-parser.add_argument('--f', type=str, required=True, help='FASTA文件的路径')
-
+parser = argparse.ArgumentParser(description='Protein fasta file')
+parser.add_argument('--f', type=str, required=True, help='fasta file path')
+parser.add_argument('--model_path', type=str, required=True, help='Path to the model file')
 args = parser.parse_args()
 fasta_file = args.f
 
@@ -152,7 +150,7 @@ test_dataset = TensorDataset(seqs_test, annotations_test, masks_test)
 test_loader = DataLoader(test_dataset, batch_size=32, shuffle=False)
 
 
-state_dict = torch.load('../../../dataset/train_5/improved-protein-bert.pt')  
+state_dict = torch.load(model_path)  
 
 model.load_state_dict(state_dict)
 accuracy = test_model(model, test_loader)
