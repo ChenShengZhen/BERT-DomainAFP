@@ -19,7 +19,7 @@ pip3 install protein-bert-pytorch
 pip3 install torch torchvision torchaudio
 pip3 install biopython pandas numpy scikit-learn tensorboard
  ```
-### Change train_file_path, validation_file_path, test_file_path to your data paths
+### Change train_file_path, validation_file_path, test_file_path to your data paths.The training data for this study is stored in dataset&code/base_data.
 ```
 #!/usr/bin/env python
 # coding: utf-8
