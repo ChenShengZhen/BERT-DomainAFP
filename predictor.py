@@ -132,7 +132,7 @@ parser.add_argument('--f', type=str, required=True, help='fasta file path')
 parser.add_argument('--model_path', type=str, required=True, help='Path to the model file')
 args = parser.parse_args()
 fasta_file = args.f
-
+model_path = args.model_path
 sequences_dict = {}
 
 for record in SeqIO.parse(fasta_file, "fasta"):
