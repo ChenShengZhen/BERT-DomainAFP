@@ -257,7 +257,7 @@ for epoch in range(num_epochs):
     val_loss /= len(total_predict)  
     right /= len(total_predict)
     if right > best_acc:
-        torch.save(model.state_dict(), './improved-protein-bert.pt')
+        torch.save(model.state_dict(), './BERT-DomainAFP.pt')
         best_acc = right
     print(f"Loss: {val_loss}, Accuracy: {right}")
 
