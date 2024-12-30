@@ -1,6 +1,6 @@
 # BERT-DomainAFP
 ### BERT-DomainAFP in Pytorch.
-### Original Repository
+
 ### Install
 ```
 pip3 install protein-bert-pytorch 
